@@ -1,0 +1,41 @@
+.card {
+   position: relative;
+   background: #fff;
+   text-align: center;
+   max-width: 240px;
+   padding: 10px;
+   border: 2px solid #777;
+}
+
+.tempDeg {
+   font-size: 6em;
+}
+
+.icon {
+   width: 100px;
+   height: 100%;
+}
+
+.date {
+font-size: 1.5em
+}
+
+.channel {
+   padding-bottom:20px;
+}
+
+button {
+   position:absolute;
+   right: 5px;
+   bottom: 5px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   background: none;
+   font-weight: 200;
+   font-size: 0.9em;
+   border: 2px solid #003366;
+   color: #003366;
+
+   &:hover {
+      background: skyblue;
+   }
+}
